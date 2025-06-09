@@ -1,0 +1,99 @@
+body {
+    background-image: url("/Photos/Apple.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Caveat", cursive;
+}
+    h2 {
+    text-align: center;
+    color: white;
+    font-family: "Caveat", cursive;
+}
+.info1 {
+    background-color:rgba(1, 1, 61, 0.726);
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius:  50px;
+    margin-top: 160px;
+}
+
+.info2 {
+    background-color:rgba(1, 1, 61, 0.726);
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius:  50px;
+    margin-top: 230px;
+}
+
+.info3 {
+    background-color:rgba(1, 1, 61, 0.726);
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius:  50px;
+    margin-top: 190px;
+}
+
+hr {
+    height: 6px;
+    background-color: rgba(91, 68, 226, 0.589);
+    margin-left: 0px;
+    margin-right: 0px;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: "Playwrite US Modern", cursive;
+}
+
+.phones {
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0c0e70;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #0d10af;
+}
+
+.active {
+  background-color: #0d10af;
+}
